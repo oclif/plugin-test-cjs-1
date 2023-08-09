@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/oclif/plugin-test-cjs-1/compare/0.1.3...0.2.0) (2023-08-09)
+
+
+### Features
+
+* add init hook ([4123e4b](https://github.com/oclif/plugin-test-cjs-1/commit/4123e4b78b1d3c49ad9f7c263ada61629677315a))
+
+
+
 ## [0.1.3](https://github.com/oclif/plugin-test-cjs-1/compare/0.1.2...0.1.3) (2023-08-07)
 
 
