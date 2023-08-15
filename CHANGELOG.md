@@ -1,3 +1,12 @@
+## [0.4.1](https://github.com/oclif/plugin-test-cjs-1/compare/0.4.0...0.4.1) (2023-08-15)
+
+
+### Bug Fixes
+
+* use ts-node/esm loader again ([6c8bbd4](https://github.com/oclif/plugin-test-cjs-1/commit/6c8bbd4e096c0be820d23ad565bbbbc00e46921c))
+
+
+
 # [0.4.0](https://github.com/oclif/plugin-test-cjs-1/compare/0.3.0...0.4.0) (2023-08-15)
 
 
