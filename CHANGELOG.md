@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/oclif/plugin-test-cjs-1/compare/0.3.0...0.4.0) (2023-08-15)
+
+
+### Features
+
+* remove --loader ts-node/esm ([e494c5b](https://github.com/oclif/plugin-test-cjs-1/commit/e494c5b1f449c91f72413954621a4ddd78d83ce0))
+
+
+
 # [0.3.0](https://github.com/oclif/plugin-test-cjs-1/compare/0.2.6...0.3.0) (2023-08-14)
 
 
