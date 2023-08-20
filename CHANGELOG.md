@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/oclif/plugin-test-cjs-1/compare/0.4.1...0.4.2) (2023-08-20)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-plugins from 3.2.6 to 3.2.7 ([3211d5e](https://github.com/oclif/plugin-test-cjs-1/commit/3211d5ec96c62e7a0db1ba1d5db703fe44dfd148))
+
+
+
 ## [0.4.1](https://github.com/oclif/plugin-test-cjs-1/compare/0.4.0...0.4.1) (2023-08-15)
 
 
