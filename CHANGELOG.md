@@ -1,3 +1,12 @@
+## [0.5.3](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.2...0.5.3) (2023-08-23)
+
+
+### Bug Fixes
+
+* bump eslint ([3195889](https://github.com/oclif/plugin-test-cjs-1/commit/3195889707bee01c9ace1b3a43b67b42c85a0b67))
+
+
+
 ## [0.5.2](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.1...0.5.2) (2023-08-23)
 
 
