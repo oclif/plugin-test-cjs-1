@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.1...0.5.2) (2023-08-23)
+
+
+### Bug Fixes
+
+* add void to bin scripts ([df7d049](https://github.com/oclif/plugin-test-cjs-1/commit/df7d0491c1ea52b05d56e93c3034c03d1e791ec8))
+
+
+
 ## [0.5.1](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.0...0.5.1) (2023-08-21)
 
 
