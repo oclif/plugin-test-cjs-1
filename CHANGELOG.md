@@ -1,3 +1,12 @@
+## [0.5.5](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.4...0.5.5) (2023-08-29)
+
+
+### Bug Fixes
+
+* bump core ([6777457](https://github.com/oclif/plugin-test-cjs-1/commit/67774576e3a42c6349e594b019927d4867a7f75e))
+
+
+
 ## [0.5.4](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.3...0.5.4) (2023-08-29)
 
 
