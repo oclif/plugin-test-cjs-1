@@ -1,3 +1,12 @@
+## [0.5.6](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.5...0.5.6) (2023-08-31)
+
+
+### Bug Fixes
+
+* use core v3 ([0d14fa5](https://github.com/oclif/plugin-test-cjs-1/commit/0d14fa58a3a29ad9341f037181334311b950da72))
+
+
+
 ## [0.5.5](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.4...0.5.5) (2023-08-29)
 
 
