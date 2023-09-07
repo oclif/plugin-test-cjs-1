@@ -1,3 +1,12 @@
+## [0.5.9](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.8...0.5.9) (2023-09-07)
+
+
+### Bug Fixes
+
+* update bin/dev.js ([d4f45c4](https://github.com/oclif/plugin-test-cjs-1/commit/d4f45c4b6f3870df7f5dcd44d2b65746309262b9))
+
+
+
 ## [0.5.8](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.7...0.5.8) (2023-09-03)
 
 
