@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/oclif/plugin-test-cjs-1/compare/0.6.0...0.6.1) (2023-09-28)
+
+
+### Bug Fixes
+
+* **deps:** bump get-func-name from 2.0.0 to 2.0.2 ([39d6aa7](https://github.com/oclif/plugin-test-cjs-1/commit/39d6aa7478815d02139a7ee0a8dea717d269a92b))
+
+
+
 # [0.6.0](https://github.com/oclif/plugin-test-cjs-1/compare/0.5.12...0.6.0) (2023-09-21)
 
 
