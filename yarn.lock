@@ -1036,9 +1036,9 @@
     "@types/responselike" "^1.0.0"
 
 "@types/chai@*", "@types/chai@^4":
-  version "4.3.5"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.5.tgz#ae69bcbb1bebb68c4ac0b11e9d8ed04526b3562b"
-  integrity sha512-mEo1sAde+UCE6b2hxn332f1g1E8WfYRu6p5SvTKr2ZKC1f7gFJXk4h5PyGP9Dt6gCaG8y8XhwnXWC6Iy2cmBng==
+  version "4.3.8"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.8.tgz#aa200a264a3bc78ccfc1718eedbd3b9d5a591270"
+  integrity sha512-yW/qTM4mRBBcsA9Xw9FbcImYtFPY7sgr+G/O5RDYVmxiy9a+pE5FyoFUi8JYCZY5nicj8atrr1pcfPiYpeNGOA==
 
 "@types/cli-progress@^3.11.0":
   version "3.11.0"
