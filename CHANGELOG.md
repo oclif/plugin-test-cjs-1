@@ -1,3 +1,12 @@
+## [0.6.22](https://github.com/oclif/plugin-test-cjs-1/compare/0.6.21...0.6.22) (2024-02-21)
+
+
+### Bug Fixes
+
+* **deps:** bump ip from 2.0.0 to 2.0.1 ([f913699](https://github.com/oclif/plugin-test-cjs-1/commit/f91369919f3a81c1b532ec9608a8e79fcbb8a7b6))
+
+
+
 ## [0.6.21](https://github.com/oclif/plugin-test-cjs-1/compare/0.6.20...0.6.21) (2024-02-18)
 
 
