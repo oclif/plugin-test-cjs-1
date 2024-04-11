@@ -1,3 +1,12 @@
+## [0.6.29](https://github.com/oclif/plugin-test-cjs-1/compare/0.6.28...0.6.29) (2024-04-11)
+
+
+### Bug Fixes
+
+* **deps:** bump tar from 6.1.11 to 6.2.1 ([a619963](https://github.com/oclif/plugin-test-cjs-1/commit/a6199638e9874f3964bfcd8b0d7d7c6b4a9c82b4))
+
+
+
 ## [0.6.28](https://github.com/oclif/plugin-test-cjs-1/compare/0.6.27...0.6.28) (2024-03-24)
 
 
