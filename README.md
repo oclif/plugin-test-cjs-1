@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-cjs-1
 $ cjs1 COMMAND
 running command...
 $ cjs1 (--version)
-@oclif/plugin-test-cjs-1/0.6.30 linux-x64 node-v18.20.1
+@oclif/plugin-test-cjs-1/0.6.31 linux-x64 node-v18.20.2
 $ cjs1 --help [COMMAND]
 USAGE
   $ cjs1 COMMAND
@@ -49,7 +49,7 @@ FLAGS
   --optionalString=<value>
 ```
 
-_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.6.30/src/commands/cjs1.ts)_
+_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.6.31/src/commands/cjs1.ts)_
 
 ## `cjs1 help [COMMANDS]`
 
