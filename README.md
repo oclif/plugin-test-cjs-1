@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-cjs-1
 $ cjs1 COMMAND
 running command...
 $ cjs1 (--version)
-@oclif/plugin-test-cjs-1/0.6.33 linux-x64 node-v18.20.2
+@oclif/plugin-test-cjs-1/0.6.34 linux-x64 node-v18.20.2
 $ cjs1 --help [COMMAND]
 USAGE
   $ cjs1 COMMAND
@@ -28,12 +28,13 @@ USAGE
 # Commands
 <!-- commands -->
 * [`cjs1 cjs1 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`](#cjs1-cjs1-optionalarg-defaultarg-defaultfnarg)
-* [`cjs1 help [COMMANDS]`](#cjs1-help-commands)
+* [`cjs1 help [COMMAND]`](#cjs1-help-command)
 * [`cjs1 plugins`](#cjs1-plugins)
 * [`cjs1 plugins:inspect PLUGIN...`](#cjs1-pluginsinspect-plugin)
-* [`cjs1 plugins:install PLUGIN...`](#cjs1-pluginsinstall-plugin)
-* [`cjs1 plugins:link PLUGIN`](#cjs1-pluginslink-plugin)
-* [`cjs1 plugins:uninstall PLUGIN...`](#cjs1-pluginsuninstall-plugin)
+* [`cjs1 plugins install PLUGIN`](#cjs1-plugins-install-plugin)
+* [`cjs1 plugins link PATH`](#cjs1-plugins-link-path)
+* [`cjs1 plugins reset`](#cjs1-plugins-reset)
+* [`cjs1 plugins uninstall [PLUGIN]`](#cjs1-plugins-uninstall-plugin)
 * [`cjs1 plugins update`](#cjs1-plugins-update)
 
 ## `cjs1 cjs1 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
@@ -49,18 +50,18 @@ FLAGS
   --optionalString=<value>
 ```
 
-_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.6.33/src/commands/cjs1.ts)_
+_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.6.34/src/commands/cjs1.ts)_
 
-## `cjs1 help [COMMANDS]`
+## `cjs1 help [COMMAND]`
 
 Display help for cjs1.
 
 ```
 USAGE
-  $ cjs1 help [COMMANDS] [-n]
+  $ cjs1 help [COMMAND] [-n]
 
 ARGUMENTS
-  COMMANDS  Command to show help for.
+  COMMAND  Command to show help for.
 
 FLAGS
   -n, --nested-commands  Include all nested commands in the output.
@@ -69,7 +70,7 @@ DESCRIPTION
   Display help for cjs1.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/5.2.20/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/6.0.22/src/commands/help.ts)_
 
 ## `cjs1 plugins`
 
@@ -92,7 +93,7 @@ EXAMPLES
   $ cjs1 plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/index.ts)_
 
 ## `cjs1 plugins:inspect PLUGIN...`
 
@@ -116,58 +117,67 @@ DESCRIPTION
   Displays installation properties of a plugin.
 
 EXAMPLES
-  $ cjs1 plugins:inspect myplugin
+  $ cjs1 plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/inspect.ts)_
 
-## `cjs1 plugins:install PLUGIN...`
+## `cjs1 plugins install PLUGIN`
 
-Installs a plugin into the CLI.
+Installs a plugin into cjs1.
 
 ```
 USAGE
-  $ cjs1 plugins:install PLUGIN...
+  $ cjs1 plugins install PLUGIN [--json] [-f] [-h] [-s | -v]
 
 ARGUMENTS
   PLUGIN  Plugin to install.
 
 FLAGS
-  -f, --force    Run yarn install with force flag.
+  -f, --force    Force npm to fetch remote resources even if a local copy exists on disk.
   -h, --help     Show CLI help.
-  -v, --verbose
+  -s, --silent   Silences npm output.
+  -v, --verbose  Show verbose npm output.
+
+GLOBAL FLAGS
+  --json  Format output as json.
 
 DESCRIPTION
-  Installs a plugin into the CLI.
-  Can be installed from npm or a git url.
+  Installs a plugin into cjs1.
+
+  Uses bundled npm executable to install plugins into /home/runner/.local/share/cjs1
 
   Installation of a user-installed plugin will override a core plugin.
 
-  e.g. If you have a core plugin that has a 'hello' command, installing a user-installed plugin with a 'hello' command
-  will override the core plugin implementation. This is useful if a user needs to update core plugin functionality in
-  the CLI without the need to patch and update the whole CLI.
-
+  Use the CJS1_NPM_LOG_LEVEL environment variable to set the npm loglevel.
+  Use the CJS1_NPM_REGISTRY environment variable to set the npm registry.
 
 ALIASES
   $ cjs1 plugins add
 
 EXAMPLES
-  $ cjs1 plugins:install myplugin 
+  Install a plugin from npm registry.
 
-  $ cjs1 plugins:install https://github.com/someuser/someplugin
+    $ cjs1 plugins install myplugin
 
-  $ cjs1 plugins:install someuser/someplugin
+  Install a plugin from a github url.
+
+    $ cjs1 plugins install https://github.com/someuser/someplugin
+
+  Install a plugin from a github slug.
+
+    $ cjs1 plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/install.ts)_
 
-## `cjs1 plugins:link PLUGIN`
+## `cjs1 plugins link PATH`
 
 Links a plugin into the CLI for development.
 
 ```
 USAGE
-  $ cjs1 plugins:link PLUGIN
+  $ cjs1 plugins link PATH [-h] [--install] [-v]
 
 ARGUMENTS
   PATH  [default: .] path to plugin
@@ -186,18 +196,33 @@ DESCRIPTION
 
 
 EXAMPLES
-  $ cjs1 plugins:link myplugin
+  $ cjs1 plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/link.ts)_
 
-## `cjs1 plugins:uninstall PLUGIN...`
+## `cjs1 plugins reset`
+
+Remove all user-installed and linked plugins.
+
+```
+USAGE
+  $ cjs1 plugins reset [--hard] [--reinstall]
+
+FLAGS
+  --hard       Delete node_modules and package manager related files in addition to uninstalling plugins.
+  --reinstall  Reinstall all plugins after uninstalling.
+```
+
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/reset.ts)_
+
+## `cjs1 plugins uninstall [PLUGIN]`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ cjs1 plugins:uninstall PLUGIN...
+  $ cjs1 plugins uninstall [PLUGIN] [-h] [-v]
 
 ARGUMENTS
   PLUGIN  plugin to uninstall
@@ -212,9 +237,12 @@ DESCRIPTION
 ALIASES
   $ cjs1 plugins unlink
   $ cjs1 plugins remove
+
+EXAMPLES
+  $ cjs1 plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/uninstall.ts)_
 
 ## `cjs1 plugins update`
 
@@ -232,5 +260,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/3.9.4/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
