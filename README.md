@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-cjs-1
 $ cjs1 COMMAND
 running command...
 $ cjs1 (--version)
-@oclif/plugin-test-cjs-1/0.6.37 linux-x64 node-v18.20.3
+@oclif/plugin-test-cjs-1/0.7.0 linux-x64 node-v18.20.3
 $ cjs1 --help [COMMAND]
 USAGE
   $ cjs1 COMMAND
@@ -41,16 +41,19 @@ USAGE
 
 ```
 USAGE
-  $ cjs1 cjs1 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG] [--optionalString <value>] [--defaultString
-    <value>] [--defaultFnString <value>]
+  $ cjs1 cjs1 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG] [--json] [--optionalString <value>]
+    [--defaultString <value>] [--defaultFnString <value>]
 
 FLAGS
   --defaultFnString=<value>  [default: async fn default]
   --defaultString=<value>    [default: simple string default]
   --optionalString=<value>
+
+GLOBAL FLAGS
+  --json  Format output as json.
 ```
 
-_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.6.37/src/commands/cjs1.ts)_
+_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.7.0/src/commands/cjs1.ts)_
 
 ## `cjs1 help [COMMAND]`
 
@@ -58,10 +61,10 @@ Display help for cjs1.
 
 ```
 USAGE
-  $ cjs1 help [COMMAND] [-n]
+  $ cjs1 help [COMMAND...] [-n]
 
 ARGUMENTS
-  COMMAND  Command to show help for.
+  COMMAND...  Command to show help for.
 
 FLAGS
   -n, --nested-commands  Include all nested commands in the output.
@@ -101,10 +104,10 @@ Displays installation properties of a plugin.
 
 ```
 USAGE
-  $ cjs1 plugins:inspect PLUGIN...
+  $ cjs1 plugins inspect PLUGIN...
 
 ARGUMENTS
-  PLUGIN  [default: .] Plugin to inspect.
+  PLUGIN...  [default: .] Plugin to inspect.
 
 FLAGS
   -h, --help     Show CLI help.
@@ -128,10 +131,10 @@ Installs a plugin into cjs1.
 
 ```
 USAGE
-  $ cjs1 plugins install PLUGIN [--json] [-f] [-h] [-s | -v]
+  $ cjs1 plugins install PLUGIN... [--json] [-f] [-h] [-s | -v]
 
 ARGUMENTS
-  PLUGIN  Plugin to install.
+  PLUGIN...  Plugin to install.
 
 FLAGS
   -f, --force    Force npm to fetch remote resources even if a local copy exists on disk.
@@ -183,9 +186,9 @@ ARGUMENTS
   PATH  [default: .] path to plugin
 
 FLAGS
-  -h, --help      Show CLI help.
+  -h, --help          Show CLI help.
   -v, --verbose
-  --[no-]install  Install dependencies after linking the plugin.
+      --[no-]install  Install dependencies after linking the plugin.
 
 DESCRIPTION
   Links a plugin into the CLI for development.
@@ -222,10 +225,10 @@ Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ cjs1 plugins uninstall [PLUGIN] [-h] [-v]
+  $ cjs1 plugins uninstall [PLUGIN...] [-h] [-v]
 
 ARGUMENTS
-  PLUGIN  plugin to uninstall
+  PLUGIN...  plugin to uninstall
 
 FLAGS
   -h, --help     Show CLI help.

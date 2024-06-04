@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/oclif/plugin-test-cjs-1/compare/0.6.37...0.7.0) (2024-06-04)
+
+
+### Features
+
+* core v4 ([8c100e7](https://github.com/oclif/plugin-test-cjs-1/commit/8c100e7cf4eb8c1ecbe4f7f2e4e7b2fcd772f61f))
+
+
+
 ## [0.6.37](https://github.com/oclif/plugin-test-cjs-1/compare/0.6.36...0.6.37) (2024-06-02)
 
 
