@@ -1052,7 +1052,7 @@
     proc-log "^4.0.0"
     which "^4.0.0"
 
-"@oclif/core@^4", "@oclif/core@^4.0.0-beta.12", "@oclif/core@^4.0.0-beta.13":
+"@oclif/core@^4", "@oclif/core@^4.0.0-beta.13":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.0.0.tgz#c47783c9803cb440e3fd325157437400765eae3f"
   integrity sha512-BMWGvJrzn5PnG60gTNFEvaBT0jvGNiJCKN4aJBYP6E7Bq/Y5XPnxPrkj7ZZs/Jsd1oVn6K/JRmF6gWpv72DOew==
@@ -4776,16 +4776,16 @@ object.values@^1.1.7:
     es-object-atoms "^1.0.0"
 
 oclif@^4:
-  version "4.12.3"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.12.3.tgz#26d0de9bdea9f710745f5cecc10cfeef6d88ad52"
-  integrity sha512-o4j5/n0LbI/OOasTiKSO4R2H+8NiG2Cn3nwVbp9GoSPfCZW7Tuup+xXNlh2/lURAYVD69Vx5XUs1PIY9QLgS5Q==
+  version "4.13.2"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.13.2.tgz#1594dffc25f11456aa979c2078c74071fb0a39ec"
+  integrity sha512-+89Pz7s1GI6qTW/dNp1W2hF0ASmq0VSqUmBEXeuBVWW+26V7fI17AuqChhahrEcT1rIi8LPQAe8iBvK5HFaHFQ==
   dependencies:
     "@aws-sdk/client-cloudfront" "^3.574.0"
     "@aws-sdk/client-s3" "^3.583.0"
     "@inquirer/confirm" "^3.1.6"
     "@inquirer/input" "^2.1.9"
     "@inquirer/select" "^2.3.5"
-    "@oclif/core" "^4.0.0-beta.12"
+    "@oclif/core" "^4"
     "@oclif/plugin-help" "^6.0.21"
     "@oclif/plugin-not-found" "^3.2.1"
     "@oclif/plugin-warn-if-update-available" "^3.0.19"
