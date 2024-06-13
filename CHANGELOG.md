@@ -1,3 +1,12 @@
+## [0.7.3](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.2...0.7.3) (2024-06-13)
+
+
+### Bug Fixes
+
+* **deps:** bump braces from 3.0.2 to 3.0.3 ([#124](https://github.com/oclif/plugin-test-cjs-1/issues/124)) ([90b378a](https://github.com/oclif/plugin-test-cjs-1/commit/90b378a2633da6ffdbd7919054c06e83dcbbd234))
+
+
+
 ## [0.7.2](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.1...0.7.2) (2024-06-09)
 
 
