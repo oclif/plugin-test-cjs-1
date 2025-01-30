@@ -1,6 +1,4 @@
-import {
-  Args, Command, Flags, Interfaces,
-} from '@oclif/core'
+import {Args, Command, Flags, Interfaces} from '@oclif/core'
 
 type Result = {
   args: Interfaces.InferredArgs<typeof CJS1.args>
@@ -17,9 +15,7 @@ export default class CJS1 extends Command {
       default: async () => 'async fn default',
     }),
   }
-
   static enableJsonFlag = true
-
   static flags = {
     optionalString: Flags.string(),
     defaultString: Flags.string({
