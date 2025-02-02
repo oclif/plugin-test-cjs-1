@@ -1597,7 +1597,7 @@
     proc-log "^5.0.0"
     which "^5.0.0"
 
-"@oclif/core@^4", "@oclif/core@^4.2.2", "@oclif/core@^4.2.3":
+"@oclif/core@^4", "@oclif/core@^4.2.3", "@oclif/core@^4.2.5":
   version "4.2.5"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.2.5.tgz#6b51e1db17272204b2431fee3eba93a21d59ebbe"
   integrity sha512-bdXOojq8GaPnWnDgVOw030JlUROJEiDLXiV3XUUGUQDEp6YpVQvEYLIrUsEvyfASU3z3FGg3DC9k0kprcOYdhw==
@@ -1639,18 +1639,18 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^5":
-  version "5.4.25"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.25.tgz#31c1a831ad077c412c26d2d689e569ac3d543934"
-  integrity sha512-44Yp532BuBoNrNYLf7wfp/2QkNY7ESdK3MgGi3GWCqW75apyX04+xC5RfRsz0KHOA9N7VFqn64PG+Ailo5TJyQ==
+  version "5.4.30"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.30.tgz#a9342808abd74761614f54c785c86d96c1bb5d1e"
+  integrity sha512-k4Vm6KfHLp7s3da9UH6vb+6ldLr7NPkBqykCMPSbIVCDbyk9Ck9RzPm3n7uIx+Gv3E6L0PCm/83CDaJVIns/dA==
   dependencies:
-    "@oclif/core" "^4.2.2"
+    "@oclif/core" "^4.2.5"
     ansis "^3.5.2"
     debug "^4.4.0"
     npm "^10.9.2"
     npm-package-arg "^11.0.3"
     npm-run-path "^5.3.0"
     object-treeify "^4.0.1"
-    semver "^7.6.3"
+    semver "^7.7.0"
     validate-npm-package-name "^5.0.1"
     which "^4.0.0"
     yarn "^1.22.22"
@@ -6435,10 +6435,10 @@ semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.0.0, semver@^7.1.1, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3:
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.3.tgz#980f7b5550bc175fb4dc09403085627f9eb33143"
-  integrity sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==
+semver@^7.0.0, semver@^7.1.1, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.0:
+  version "7.7.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.0.tgz#9c6fe61d0c6f9fa9e26575162ee5a9180361b09c"
+  integrity sha512-DrfFnPzblFmNrIZzg5RzHegbiRWg7KMR7btwi2yjHwx06zsUbO5g613sVwEV7FTwmzJu+Io0lJe2GJ3LxqpvBQ==
 
 sentence-case@^3.0.4:
   version "3.0.4"
