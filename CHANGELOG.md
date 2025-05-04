@@ -1,3 +1,12 @@
+## [0.7.65](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.64...0.7.65) (2025-05-04)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-help from 6.2.27 to 6.2.28 ([#339](https://github.com/oclif/plugin-test-cjs-1/issues/339)) ([c006d86](https://github.com/oclif/plugin-test-cjs-1/commit/c006d86a3ac476524c6802e3933233fad5348238))
+
+
+
 ## [0.7.64](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.63...0.7.64) (2025-05-04)
 
 
