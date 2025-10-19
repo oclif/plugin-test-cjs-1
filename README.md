@@ -18,7 +18,7 @@ $ npm install -g @oclif/plugin-test-cjs-1
 $ cjs1 COMMAND
 running command...
 $ cjs1 (--version)
-@oclif/plugin-test-cjs-1/0.7.84 linux-x64 node-v20.19.5
+@oclif/plugin-test-cjs-1/0.7.85 linux-x64 node-v20.19.5
 $ cjs1 --help [COMMAND]
 USAGE
   $ cjs1 COMMAND
@@ -53,7 +53,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 ```
 
-_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.7.84/src/commands/cjs1.ts)_
+_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.7.85/src/commands/cjs1.ts)_
 
 ## `cjs1 help [COMMAND]`
 
@@ -64,7 +64,7 @@ USAGE
   $ cjs1 help [COMMAND...] [-n]
 
 ARGUMENTS
-  COMMAND...  Command to show help for.
+  [COMMAND...]  Command to show help for.
 
 FLAGS
   -n, --nested-commands  Include all nested commands in the output.
@@ -229,7 +229,7 @@ USAGE
   $ cjs1 plugins uninstall [PLUGIN...] [-h] [-v]
 
 ARGUMENTS
-  PLUGIN...  plugin to uninstall
+  [PLUGIN...]  plugin to uninstall
 
 FLAGS
   -h, --help     Show CLI help.
