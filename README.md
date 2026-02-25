@@ -1,7 +1,7 @@
 oclif-hello-world
 =================
 
-oclif example Hello World CLI
+oclif cjs example Hello World CLI
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![GitHub license](https://img.shields.io/github/license/oclif/hello-world)](https://github.com/oclif/hello-world/blob/main/LICENSE)
