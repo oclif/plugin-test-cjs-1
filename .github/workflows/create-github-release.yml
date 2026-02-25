@@ -18,8 +18,7 @@ jobs:
   release:
     # this job will throw if prerelease is true but it doesn't have a prerelease-looking package.json version
     uses: salesforcecli/github-workflows/.github/workflows/create-github-release.yml@main
-    secrets:
-      SVC_CLI_BOT_GITHUB_TOKEN: ${{ secrets.SVC_CLI_BOT_GITHUB_TOKEN }}
+    secrets: inherit
     with:
       prerelease: ${{ inputs.prerelease }}
       # If this is a push event, we want to skip the release if there are no semantic commits
