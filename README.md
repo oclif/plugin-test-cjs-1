@@ -17,7 +17,7 @@ $ npm install -g @oclif/plugin-test-cjs-1
 $ cjs1 COMMAND
 running command...
 $ cjs1 (--version)
-@oclif/plugin-test-cjs-1/0.7.97 linux-x64 node-v20.20.1
+@oclif/plugin-test-cjs-1/0.7.98 linux-x64 node-v20.20.1
 $ cjs1 --help [COMMAND]
 USAGE
   $ cjs1 COMMAND
@@ -52,7 +52,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 ```
 
-_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.7.97/src/commands/cjs1.ts)_
+_See code: [src/commands/cjs1.ts](https://github.com/oclif/plugin-test-cjs-1/blob/0.7.98/src/commands/cjs1.ts)_
 
 ## `cjs1 help [COMMAND]`
 
@@ -95,7 +95,7 @@ EXAMPLES
   $ cjs1 plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.56/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.59/src/commands/plugins/index.ts)_
 
 ## `cjs1 plugins:inspect PLUGIN...`
 
@@ -122,7 +122,7 @@ EXAMPLES
   $ cjs1 plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.56/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.59/src/commands/plugins/inspect.ts)_
 
 ## `cjs1 plugins install PLUGIN`
 
@@ -171,7 +171,7 @@ EXAMPLES
     $ cjs1 plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.56/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.59/src/commands/plugins/install.ts)_
 
 ## `cjs1 plugins link PATH`
 
@@ -202,7 +202,7 @@ EXAMPLES
   $ cjs1 plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.56/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.59/src/commands/plugins/link.ts)_
 
 ## `cjs1 plugins reset`
 
@@ -217,7 +217,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.56/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.59/src/commands/plugins/reset.ts)_
 
 ## `cjs1 plugins uninstall [PLUGIN]`
 
@@ -245,7 +245,7 @@ EXAMPLES
   $ cjs1 plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.56/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.59/src/commands/plugins/uninstall.ts)_
 
 ## `cjs1 plugins update`
 
@@ -263,5 +263,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.56/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.59/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
