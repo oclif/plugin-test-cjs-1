@@ -1,3 +1,12 @@
+## [0.7.101](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.100...0.7.101) (2026-04-05)
+
+
+### Bug Fixes
+
+* **deps:** bump lodash from 4.17.23 to 4.18.1 ([#496](https://github.com/oclif/plugin-test-cjs-1/issues/496)) ([057b922](https://github.com/oclif/plugin-test-cjs-1/commit/057b922adf16f5f5521361260fd48cc2f7ad97ca))
+
+
+
 ## [0.7.100](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.99...0.7.100) (2026-03-29)
 
 
