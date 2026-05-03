@@ -1,3 +1,12 @@
+## [0.7.110](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.109...0.7.110) (2026-05-03)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 4.10.6 to 4.11.0 ([#509](https://github.com/oclif/plugin-test-cjs-1/issues/509)) ([09abbd2](https://github.com/oclif/plugin-test-cjs-1/commit/09abbd2f66280b518a4ab6f7b56eb8ba375d21f9))
+
+
+
 ## [0.7.109](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.108...0.7.109) (2026-05-03)
 
 
