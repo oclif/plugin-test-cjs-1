@@ -1,3 +1,12 @@
+## [0.7.127](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.126...0.7.127) (2026-06-22)
+
+
+### Bug Fixes
+
+* **deps:** bump undici from 6.25.0 to 6.27.0 ([#539](https://github.com/oclif/plugin-test-cjs-1/issues/539)) ([9c179a1](https://github.com/oclif/plugin-test-cjs-1/commit/9c179a1e3e1ccec6aff66c6b123a7ed7ba5986ae))
+
+
+
 ## [0.7.126](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.125...0.7.126) (2026-06-21)
 
 
