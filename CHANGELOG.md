@@ -1,3 +1,12 @@
+## [0.7.133](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.132...0.7.133) (2026-07-02)
+
+
+### Bug Fixes
+
+* **deps:** bump sigstore from 4.1.0 to 4.1.1 ([#548](https://github.com/oclif/plugin-test-cjs-1/issues/548)) ([8b6df08](https://github.com/oclif/plugin-test-cjs-1/commit/8b6df08eb7e095103f1dd7a624bad66620071851))
+
+
+
 ## [0.7.132](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.131...0.7.132) (2026-07-02)
 
 
