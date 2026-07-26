@@ -1,3 +1,12 @@
+## [0.7.135](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.134...0.7.135) (2026-07-26)
+
+
+### Bug Fixes
+
+* **deps:** bump tar from 7.5.16 to 7.5.22 ([#561](https://github.com/oclif/plugin-test-cjs-1/issues/561)) ([7290b77](https://github.com/oclif/plugin-test-cjs-1/commit/7290b7739b30c987b1c5604602b30aa35a154a78))
+
+
+
 ## [0.7.134](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.133...0.7.134) (2026-07-05)
 
 
