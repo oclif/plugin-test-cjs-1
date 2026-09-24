@@ -1,3 +1,12 @@
+## [0.7.145](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.144...0.7.145) (2026-09-24)
+
+
+### Bug Fixes
+
+* bumped dependencies (W-24099831) ([3d0c049](https://github.com/oclif/plugin-test-cjs-1/commit/3d0c0491d79f380c722c755a311db1aeaf118e01))
+
+
+
 ## [0.7.144](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.143...0.7.144) (2026-08-16)
 
 
