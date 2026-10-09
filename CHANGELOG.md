@@ -1,3 +1,12 @@
+## [0.7.147](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.146...0.7.147) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump source-map-js from 1.2.1 to 1.2.2 ([#587](https://github.com/oclif/plugin-test-cjs-1/issues/587)) ([7042d8b](https://github.com/oclif/plugin-test-cjs-1/commit/7042d8b73437e36c7e3d2e475ad6faa80e9fa505))
+
+
+
 ## [0.7.146](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.145...0.7.146) (2026-10-09)
 
 
