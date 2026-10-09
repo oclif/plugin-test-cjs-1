@@ -1,3 +1,12 @@
+## [0.7.149](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.148...0.7.149) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump js-yaml from 4.3.1 to 4.3.2 ([#583](https://github.com/oclif/plugin-test-cjs-1/issues/583)) ([82dbb4f](https://github.com/oclif/plugin-test-cjs-1/commit/82dbb4ff082d71dd44ffceccdcf06155ea6e5311))
+
+
+
 ## [0.7.148](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.147...0.7.148) (2026-10-09)
 
 
