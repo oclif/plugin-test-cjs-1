@@ -1,3 +1,12 @@
+## [0.7.150](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.149...0.7.150) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump browserslist from 4.24.4 to 4.29.0 ([#582](https://github.com/oclif/plugin-test-cjs-1/issues/582)) ([6347e2c](https://github.com/oclif/plugin-test-cjs-1/commit/6347e2c338c7bbf5a4502786165456ebf6d53a5b))
+
+
+
 ## [0.7.149](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.148...0.7.149) (2026-10-09)
 
 
