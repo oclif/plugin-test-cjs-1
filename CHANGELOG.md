@@ -1,3 +1,12 @@
+## [0.7.152](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.151...0.7.152) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump pacote from 21.5.0 to 21.5.1 ([#575](https://github.com/oclif/plugin-test-cjs-1/issues/575)) ([7002d02](https://github.com/oclif/plugin-test-cjs-1/commit/7002d02761a047bb10a9548ee05b4e87a5646141))
+
+
+
 ## [0.7.151](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.150...0.7.151) (2026-10-10)
 
 
