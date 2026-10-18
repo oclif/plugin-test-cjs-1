@@ -1,3 +1,12 @@
+## [0.7.158](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.157...0.7.158) (2026-10-18)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-plugins from 7.0.3 to 7.0.8 ([#594](https://github.com/oclif/plugin-test-cjs-1/issues/594)) ([e63a0d8](https://github.com/oclif/plugin-test-cjs-1/commit/e63a0d80c0726e1fd4c78e5623aaf9c432248575))
+
+
+
 ## [0.7.157](https://github.com/oclif/plugin-test-cjs-1/compare/0.7.156...0.7.157) (2026-10-18)
 
 
